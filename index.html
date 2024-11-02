@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy Dude Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf9e7;
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #4caf50;
+}
+
+.farm-info, .products, .videos, .articles, .workshops {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-image {
+    display: flex;
+    align-items: center;
+}
+
+.farm-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.product.reverse {
+    flex-direction: row-reverse;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5cb85c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dairy Dude Blog</h1>
+    </header>
+    <main>
+        <section class="farm-info">
+            <h2>About the Farm</h2>
+            <div class="content-image">
+                <img src="farm-image.jpg" alt="Dairy Farm" class="farm-image">
+                <p>Welcome to Dairy Dude, a family-owned dairy farm where we produce high-quality, fresh dairy products. Our commitment to sustainable farming practices ensures that our cows are happy and healthy, resulting in delicious milk for our community.</p>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Milk Products & Health Benefits</h2>
+            <div class="product">
+                <img src="milk-product-1.jpg" alt="Milk Product 1">
+                <h3>Product 1: Yogurt</h3>
+                <p>Yogurt is a rich source of probiotics, which are beneficial for digestive health. It also helps boost the immune system.</p>
+            </div>
+            <div class="product reverse">
+                <img src="milk-product-2.jpg" alt="Milk Product 2">
+                <h3>Product 2: Cheese</h3>
+                <p>Cheese is high in calcium and protein, essential for strong bones and muscles. It's also a good source of vitamins A and B12.</p>
+            </div>
+            <div class="product">
+                <img src="milk-product-3.jpg" alt="Milk Product 3">
+                <h3>Product 3: Butter</h3>
+                <p>Butter contains healthy fats and fat-soluble vitamins. It can help improve cholesterol levels when consumed in moderation.</p>
+            </div>
+            <div class="product reverse">
+                <img src="milk-product-4.jpg" alt="Milk Product 4">
+                <h3>Product 4: Ice Cream</h3>
+                <p>Ice cream provides a quick source of energy and contains calcium. Enjoy it occasionally for a sweet treat!</p>
+            </div>
+            <div class="product">
+                <img src="milk-product-5.jpg" alt="Milk Product 5">
+                <h3>Product 5: Ghee</h3>
+                <p>Ghee is a form of clarified butter that is rich in nutrients. It's good for digestion and has anti-inflammatory properties.</p>
+            </div>
+        </section>
+
+        <section class="videos">
+            <h2>YouTube Videos</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=example1" target="_blank">Health Benefits of Milk</a></li>
+                <li><a href="https://www.youtube.com/watch?v=example2" target="_blank">How to Make Cheese</a></li>
+                <li><a href="https://www.youtube.com/watch?v=example3" target="_blank">Understanding Dairy Farming</a></li>
+                <li><a href="https://www.youtube.com/watch?v=example4" target="_blank">Cooking with Milk Products</a></li>
+                <li><a href="https://www.youtube.com/watch?v=example5" target="_blank">Milk and its Health Benefits</a></li>
+            </ul>
+        </section>
+
+        <section class="articles">
+            <h2>Articles on Milk & Its Products</h2>
+            <ul>
+                <li><a href="https://example.com/article1" target="_blank">The Nutritional Value of Milk</a></li>
+                <li><a href="https://example.com/article2" target="_blank">Dairy Products: A Comprehensive Guide</a></li>
+                <li><a href="https://example.com/article3" target="_blank">How Milk Benefits Your Health</a></li>
+                <li><a href="https://example.com/article4" target="_blank">Sustainable Dairy Farming Practices</a></li>
+                <li><a href="https://example.com/article5" target="_blank">The Science Behind Cheese Making</a></li>
+            </ul>
+        </section>
+
+        <section class="workshops">
+            <h2>Workshop Videos</h2>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=workshop1" target="_blank">Workshop on Dairy Farming</a></li>
+                <li><a href="https://www.youtube.com/watch?v=workshop2" target="_blank">Making Cheese: Step by Step</a></li>
+                <li><a href="https://www.youtube.com/watch?v=workshop3" target="_blank">Healthy Cooking with Dairy Products</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dairy Dude. All rights reserved.</p>
+    </footer>
+</body>
+</html>
