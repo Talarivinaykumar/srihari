@@ -1,0 +1,77 @@
+
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf9e7;
+    color: #3d3d3d;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5cb85c;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #4caf50;
+}
+
+.farm-info, .products, .videos, .articles, .workshops {
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content-image {
+    display: flex;
+    align-items: center;
+}
+
+.farm-image {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.product img {
+    width: 100px;
+    height: auto;
+    margin-right: 15px;
+}
+
+.product.reverse {
+    flex-direction: row-reverse;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #5cb85c;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
